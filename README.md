@@ -1,5 +1,3 @@
-# bayimagecustoms
+# Bay Image Customs
 
-racerallymedia.com
 
-onyxnj.com
