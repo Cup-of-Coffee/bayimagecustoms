@@ -6,6 +6,7 @@ header {
 }
 
 body {
+    overflow: hidden;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -17,20 +18,40 @@ footer {
     background-color: #000000;
 }
 
+a {
+    text-decoration: none;
+    color: #999999;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+h1, p {
+    margin: 0px;
+}
+
 ul {
     list-style-type: none;
+}
+
+.navbar, .navlist, .navbuttons {
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar {
     background-color: #262626;
     color: #5e5e5e;
-    display: flex;
-    justify-content: space-between;
 }
 
 .navbuttons {
-    display: flex;
-    justify-content: space-between;
+
+}
+
+.navlist {
+    gap: 24px;
+    padding: 8px, 24px;
 }
 
 .front-picture {
@@ -38,6 +59,8 @@ ul {
 }
 
 .button-menu {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #2f2f2f;
 }
 
