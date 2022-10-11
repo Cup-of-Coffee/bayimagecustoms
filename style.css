@@ -58,14 +58,32 @@ ul {
     background-color: #999999;
 }
 
-.button-menu {
+.button-container {
     display: flex;
     justify-content: space-evenly;
     background-color: #2f2f2f;
 }
 
+.button-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .showcase {
+    display: table;
     background-color: #999999;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+    width: 100%;
+}
+
+.column {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .description {
