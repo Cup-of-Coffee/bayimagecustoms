@@ -1,7 +1,94 @@
+/* Elements */
+
 body {
     background-color: #ea4435;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #999999;
+}
+
+ul {
+    list-style-type: none;
 }
 
 footer {
     background-color: #ffffff;
 }
+
+/* Images */
+
+.logo{
+
+}
+
+.brand {
+    
+}
+
+.cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.icon {
+
+}
+
+.grid {
+
+}
+
+/* Classes */
+
+.navigation {
+
+}
+
+.linkbar {
+    
+}
+
+.display {
+    
+}
+
+.row {
+    display: table-row;
+    width: 100%;
+}
+
+.column {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.booking {
+
+}
+
+.lifestyle {
+    
+}
+
+.located {
+    
+}
+
+.container {
+    
+}
+
+
+
