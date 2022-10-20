@@ -2,7 +2,6 @@
 
 body {
     background-color: #ea4435;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -26,6 +25,10 @@ footer {
 }
 
 /* Images */
+
+.logo, .brand, .cover, .icon, .grid {
+    
+}
 
 .logo{
 
@@ -89,6 +92,3 @@ footer {
 .container {
     
 }
-
-
-
