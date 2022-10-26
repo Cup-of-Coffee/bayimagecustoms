@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -22,6 +23,11 @@ ul {
     justify-content: space-around;
 }
 
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 h1 {
     color: #ffffff;
     font-weight: bold;
@@ -32,15 +38,15 @@ h3 {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #ffffff;
     font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Images */
-
-.logo, .brand, .cover, .icon, .grid {
-    
-}
 
 .logo{
     height: 125px;
@@ -59,7 +65,8 @@ footer {
 }
 
 .icon {
-
+    height: fit-content;
+    width: fit-content;
 }
 
 .grid {
@@ -76,7 +83,19 @@ footer {
 }
 
 .linkbar {
-    
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bar p {
+    margin: 0%;
 }
 
 .display {
@@ -95,15 +114,21 @@ footer {
 }
 
 .booking {
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .lifestyle {
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .located {
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .container {
@@ -116,4 +141,11 @@ footer {
 
 .phone {
     color: grey;
+}
+
+/* Code */
+
+#map {
+    height: 100px;
+    width: 400px;
 }
