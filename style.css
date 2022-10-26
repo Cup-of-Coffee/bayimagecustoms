@@ -18,10 +18,22 @@ a:hover {
 
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h3 {
+    color: #ffffff;
 }
 
 footer {
     background-color: #ffffff;
+    font-size: small;
 }
 
 /* Images */
@@ -31,11 +43,13 @@ footer {
 }
 
 .logo{
-
+    height: 125px;
+    width: 250px;
 }
 
 .brand {
-    
+    height: 40px;
+    width: 40px;
 }
 
 .cover {
@@ -49,13 +63,16 @@ footer {
 }
 
 .grid {
-
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Classes */
 
 .navigation {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .linkbar {
@@ -90,5 +107,13 @@ footer {
 }
 
 .container {
-    
+    background-color: #ffffff;
+}
+
+.description {
+    color: #ffffff;
+}
+
+.phone {
+    color: grey;
 }
