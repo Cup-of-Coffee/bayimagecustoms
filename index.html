@@ -1,9 +1,16 @@
 <!DOCTYPE html>
+<!--
+@license
+Copyright 2019 Google LLC. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+-->
 <HTML lang="English">
     <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="./index.js"></script>
     </head>
     <body>
         <div class="navigation">
@@ -86,7 +93,14 @@
         <div class="located">
             <h1>LOCATED</h1>
             <div class="navigation">
-                <div class="map"></div>
+                <div id="map"></div>
+                    <!-- 
+                    The `defer` attribute causes the callback to execute after the full HTML
+                    document has been parsed. For non-blocking uses, avoiding race conditions,
+                    and consistent behavior across browsers, consider loading using Promises
+                    with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+                    -->
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWb6Kke_UeKgfDDw3-mDB-iT0SC9-xUYI&callback=initMap&v=weekly" defer></script>
                 <div class="container">
                     <h3>Village Edge Dr, Brodheadsville, PA 18322, United States</h3>
                     <div>
