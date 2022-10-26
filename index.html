@@ -13,9 +13,9 @@ SPDX-License-Identifier: Apache-2.0
     <script type="module" src="./index.js"></script>
     </head>
     <body>
-        <div class="navigation">
+        <div class="flex-between-rows bar">
             <img src="Images/Bay Image Icon.png" class="logo">
-            <div class="navigation">
+            <nav class="flex-between-rows">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
@@ -27,23 +27,23 @@ SPDX-License-Identifier: Apache-2.0
                     <li><img src="Images/Facebook Icon.png" class="brand"></li>
                     <li><img src="Images/Instagram Icon.png" class="brand"></li>
                 </ul>
-            </div>
+            </nav>
         </div>
         <div>
             <img src="Images/Home Cover.png" class="cover">
         </div>
-        <div class="linkbar">
-            <div class="bar">
+        <div class="flex-around-rows grid">
+            <div class="center">
                 <p><img src="Images/Phone.png" class="icon"></p>
                 <a href="#"><h3>CALL NOW</h3></a>
                 <p class="description">Schedule a appointment and talk to a expert!</p>
             </div>
-            <div class="bar">
+            <div class="center">
                 <p><img src="Images/Flag.png" class="icon"></p>
                 <a href="#"><h3>SEE OUR WORK</h3></a>
                 <p class="description">Our catalogue of finished detailings and wraps!</p>
             </div>
-            <div class="bar">
+            <div class="center">
                 <p><img src="Images/User.png" class="icon"></p>
                 <a href="#"><h3>GET INVOVLED</h3></a>
                 <p class="description">Help bring awareness to things that matter!</p>
@@ -79,12 +79,12 @@ SPDX-License-Identifier: Apache-2.0
         </div>
         <div class="lifestyle">
             <h1>LIFESTYLE</h1>
-            <div class="bottom">
-                <div class="navigation">
+            <div class="flex-around-rows">
+                <div class="flex-between-rows">
                     <img src="Images/Facebook Icon.png" class="brand">
                     <p class="description">Follow on Facebook</p>
                 </div>
-                <div class="navigation">
+                <div class="flex-around-rows">
                     <img src="Images/Instagram Icon.png" class="brand">
                     <p class="description">Follow on Instagram</p>
                 </div>
@@ -92,7 +92,7 @@ SPDX-License-Identifier: Apache-2.0
         </div>
         <div class="located">
             <h1>LOCATED</h1>
-            <div class="bottom">
+            <div class="flex-around-rows bottom">
                 <div id="map"></div>
                     <!-- 
                     The `defer` attribute causes the callback to execute after the full HTML

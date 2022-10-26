@@ -78,18 +78,31 @@ footer {
 
 /* Classes */
 
-.navigation {
+.bar {
+    position: fixed;
+    background-color: #ea4435;
+    width: 100%;
+}
+
+.flex-between-rows {
     display: flex;
     justify-content: space-between;
 }
 
-.linkbar {
+.flex-around-rows {
     display: flex;
     justify-content: space-around;
+}
+
+.flex-around-rows.grid {
     padding: 25px;
 }
 
-.bar {
+.flex-around-rows.bottom {
+    padding-bottom: 20px;
+}
+
+.center {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -114,28 +127,10 @@ footer {
     vertical-align: middle;
 }
 
-.booking {
+.booking, .lifestyle, .located {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.lifestyle {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.located {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.bottom {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
 }
 
 .container {
